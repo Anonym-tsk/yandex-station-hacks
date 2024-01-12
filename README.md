@@ -73,3 +73,9 @@ _Нам понадобится:_
 Собираем бутерброд из плат на двусторонний скотч, мотаем изолентой и пакуем в корпус колонки, закрепив двусторонним скотчем или термоклеем
 
 <img src='https://raw.githubusercontent.com/Anonym-tsk/yandex-station-hacks/master/assets/assemble_glue.jpeg' width='400' /> <img src='https://raw.githubusercontent.com/Anonym-tsk/yandex-station-hacks/master/assets/assemble_pack.jpeg' width='400' />
+
+Прокладываем провода (можно мотнуть тканевой изолентой в месте прокладки) и собираем станцию в обратном порядке
+
+<img src='https://raw.githubusercontent.com/Anonym-tsk/yandex-station-hacks/master/assets/assemble_final.jpeg' width='600' />
+
+#### 6. Интеграция с Home Assistant
