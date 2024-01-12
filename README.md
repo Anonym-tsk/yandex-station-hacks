@@ -79,3 +79,11 @@ _Нам понадобится:_
 <img src='https://raw.githubusercontent.com/Anonym-tsk/yandex-station-hacks/master/assets/assemble_final.jpeg' width='600' />
 
 #### 6. Интеграция с Home Assistant
+
+Добавляем интеграцию [ESPHome](https://my.home-assistant.io/redirect/config_flow_start/?domain=esphome) в Home Assistant и получаем возможность переключать выход звука Яндекс Станции
+
+<img src='https://raw.githubusercontent.com/Anonym-tsk/yandex-station-hacks/master/assets/homeassistant.jpg' width='400' />
+
+Мой сценарий автоматизации такой: у ресивера есть источник `Yandex Station`, при выборе этого источника громкость станции увеличивается, а выход звука переключается на ресивер. При смене источника на любой другой или выключении ресивера, громкость станции понижается и выход переключается обратно на станцию.
+
+Package для Home Assistant: [packages/receiver.yaml](homeassistant/packages/receiver.yaml)
