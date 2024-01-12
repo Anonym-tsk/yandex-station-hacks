@@ -91,3 +91,15 @@ Package для Home Assistant: [packages/receiver.yaml](homeassistant/packages/r
 #### 7. Управляем голосом
 
 Можно пробросить switch в УД Яндекса и управлять им Алисой. В моем случае, в УД проброшен ресивер и при изменении источника ресивера выход станции автоматически меняется на него. Для удобства сделал пару сценариев `Включи колонки` и `Выключи колонки`.
+
+#### 8. P.S.
+
+Информация частично взята с 4pda, [пост пользователя **remrum**](https://4pda.to/forum/index.php?showtopic=970993&view=findpost&p=103784007)
+
+Схема сделана в [EasyEDA](https://easyeda.com/)
+
+---
+
+Enjoy my work? Help me out for a couple of :beers: or a :coffee:!
+
+[![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://yoomoney.ru/to/410019180291197)
