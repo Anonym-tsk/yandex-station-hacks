@@ -39,3 +39,22 @@ _Нам понадобится:_
 Можно найти и отрезать дорожку `DET` от гнезда, но намного проще шилом или тонкой отверткой просто загнуть контакт в разъёме, чтобы он не замыкался штекером.
 
 <img src='https://raw.githubusercontent.com/Anonym-tsk/yandex-station-hacks/master/assets/hole.jpg' width='600' />
+
+#### 3. Модификация
+
+<img src='https://raw.githubusercontent.com/Anonym-tsk/yandex-station-hacks/master/assets/scheme.jpg' width='800' />
+
+Собираем по схеме. Оптрон с резистором можно собрать навесным, но я сделал на макетке.
+
+<img src='https://raw.githubusercontent.com/Anonym-tsk/yandex-station-hacks/master/assets/opto1.jpeg' width='400' /> <img src='https://raw.githubusercontent.com/Anonym-tsk/yandex-station-hacks/master/assets/opto2.jpeg' width='400' />
+
+У Wemos используется `GPIO5`, `GND` и `VBUS`
+
+<img src='https://raw.githubusercontent.com/Anonym-tsk/yandex-station-hacks/master/assets/wemos1.jpeg' width='400' /> <img src='https://raw.githubusercontent.com/Anonym-tsk/yandex-station-hacks/master/assets/wemos2.jpeg' width='400' />
+
+К плате станции удобнее припаивать снизу, так будет проще проложить провода
+
+<img src='https://raw.githubusercontent.com/Anonym-tsk/yandex-station-hacks/master/assets/wires2.jpeg' width='600' />
+
+#### 4. Прошивка
+
