@@ -58,3 +58,18 @@ _Нам понадобится:_
 
 #### 4. Прошивка
 
+Для прошивки я использовал [ESPHome](https://esphome.io/)
+
+Конфигурацию можно найти здесь: [yandex-station-mini.yaml](esphome/yandex-station-mini.yaml)
+
+Не забудьте прошить перед сборкой.
+
+#### 5. Сборка
+
+Для прокладки проводов паяльником расширяем паз, в котором лежат провода динамика
+
+<img src='https://raw.githubusercontent.com/Anonym-tsk/yandex-station-hacks/master/assets/wires_hole.jpg' width='600' />
+
+Собираем бутерброд из плат на двусторонний скотч, мотаем изолентой и пакуем в корпус колонки, закрепив двусторонним скотчем или термоклеем
+
+<img src='https://raw.githubusercontent.com/Anonym-tsk/yandex-station-hacks/master/assets/assemble_glue.jpeg' width='400' /> <img src='https://raw.githubusercontent.com/Anonym-tsk/yandex-station-hacks/master/assets/assemble_pack.jpeg' width='400' />
