@@ -1,0 +1,40 @@
+automation:
+  - alias: Yandex Station output to receiver
+    initial_state: true
+    trigger:
+      platform: state
+      attribute: source
+      entity_id: media_player.receiver
+      to: 'Yandex Station'
+    condition:
+      condition: state
+      entity_id: switch.yandex_station_mini_analog_output
+      state: 'off'
+    action:
+      - service: switch.turn_on
+        entity_id: switch.yandex_station_mini_analog_output
+      - delay: 2
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.yandex_station_ff98f02932597e569b608f73
+          volume_level: 0.9
+
+  - alias: Yandex Station output to station
+    initial_state: true
+    trigger:
+      platform: state
+      attribute: source
+      entity_id: media_player.receiver
+      not_to: 'Yandex Station'
+    condition:
+      condition: state
+      entity_id: switch.yandex_station_mini_analog_output
+      state: 'on'
+    action:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.yandex_station_ff98f02932597e569b608f73
+          volume_level: 0.3
+      - service: switch.turn_off
+        entity_id: switch.yandex_station_mini_analog_output
+
